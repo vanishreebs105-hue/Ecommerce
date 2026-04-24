@@ -1,0 +1,50 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f5f7fa;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.categories {
+  display: flex;
+  gap: 20px;
+}
+
+.categories div {
+  padding: 20px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.categories div:hover {
+  background: #0056b3;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  background: white;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button {
+  padding: 8px;
+  margin: 5px;
+  background: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

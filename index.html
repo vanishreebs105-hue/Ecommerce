@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ecommerce</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Shop by Category</h1>
+
+<div class="categories">
+  <div onclick="goToCategory('electronics')">Electronics</div>
+  <div onclick="goToCategory('clothing')">Clothing</div>
+  <div onclick="goToCategory('accessories')">Accessories</div>
+</div>
+
+<script>
+function goToCategory(category) {
+  localStorage.setItem("category", category);
+  window.location.href = "products.html";
+}
+</script>
+
+</body>
+</html>
